@@ -1,0 +1,144 @@
+{
+  "name": "Nosferatu",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1b1926",
+    "editor.foreground": "#e2d1bb",
+    "editorLineNumber.foreground": "#666666",
+    "editorLineNumber.activeForeground": "#fbe8cf",
+    "editorCursor.foreground": "#8cfaf3",
+    "editor.selectionBackground": "#363848",
+    "editor.selectionHighlightBackground": "#36384888",
+    "editorIndentGuide.background1": "#56596a",
+    "editorWhitespace.foreground": "#586693",
+    "editorBracketMatch.background": "#3e284e",
+    "editorBracketMatch.border": "#b48cfa",
+    "editorGutter.background": "#1b1926",
+    "editorGutter.modifiedBackground": "#facc8c",
+    "editorGutter.addedBackground": "#8cfa97",
+    "editorGutter.deletedBackground": "#fa8c8c",
+    "editorGroup.border": "#56596a",
+    "editorGroupHeader.tabsBackground": "#1b1926",
+    "tab.activeBackground": "#26242e",
+    "tab.inactiveBackground": "#1b1926",
+    "tab.activeForeground": "#fbe8cf",
+    "tab.inactiveForeground": "#666666",
+    "sideBar.background": "#1b1926",
+    "sideBar.foreground": "#fbe8cf",
+    "sideBarSectionHeader.background": "#26242e",
+    "sideBarSectionHeader.foreground": "#b48cfa",
+    "activityBar.background": "#1b1926",
+    "activityBar.foreground": "#b48cfa",
+    "activityBarBadge.background": "#b48cfa",
+    "activityBarBadge.foreground": "#1b1926",
+    "statusBar.background": "#1b1926",
+    "statusBar.foreground": "#fbe8cf",
+    "statusBar.debuggingBackground": "#fa8c8c",
+    "statusBar.debuggingForeground": "#1b1926",
+    "panel.background": "#26242e",
+    "panel.border": "#56596a",
+    "panelTitle.activeForeground": "#b48cfa",
+    "panelTitle.inactiveForeground": "#666666",
+    "titleBar.activeBackground": "#1b1926",
+    "titleBar.activeForeground": "#fbe8cf",
+    "titleBar.inactiveBackground": "#26242e",
+    "titleBar.inactiveForeground": "#666666",
+    "terminal.background": "#1b1926",
+    "terminal.foreground": "#fbe8cf",
+    
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "comment.block.documentation"
+      ],
+      "settings": {
+        "foreground": "#6D6550"
+      }
+    },
+    {
+      "scope": [
+        "punctuation",
+        "punctuation.bracket",
+        "punctuation.delimiter"
+      ],
+      "settings": {
+        "foreground": "#c5ae8f"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "constant.other.symbol"
+      ],
+      "settings": {
+        "foreground": "#ed8cfa"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#d1da78"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "keyword.control.directive.define.c"
+      ],
+      "settings": {
+        "foreground": "#62e66f"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#b48cfa"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "identifier",
+        "variable.parameter",
+        "storage.type.typedef.c",
+        "storage.type.c"
+      ],
+      "settings": {
+        "foreground": "#80e2dc"
+      }
+    },    
+    {
+      "scope": [
+        "entity.name.type",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#fa8c8c"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.preprocessor.c",
+      ],
+      "settings": {
+        "foreground": "#b48cfa"
+      }
+    },
+    {
+      "scope": [
+        "meta.block.c.other",
+      ],
+      "settings": {
+        "foreground": "#a59db3"
+      }
+    }
+  ]
+}

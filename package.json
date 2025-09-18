@@ -1,0 +1,21 @@
+{
+  "name": "nosferatu",
+  "displayName": "nosferatu",
+  "description": "Nosferatu theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "nosferatu",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nosferatu-color-theme.json"
+      }
+    ]
+  }
+}
