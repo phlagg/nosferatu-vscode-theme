@@ -1,7 +1,7 @@
 {
-  "name": "nosferatu",
-  "displayName": "nosferatu",
-  "description": "Nosferatu theme",
+  "name": "Nosferatu",
+  "displayName": "Nosferatu",
+  "description": "Nosferatu VSCode Theme",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.104.0"
@@ -12,10 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "nosferatu",
+        "label": "Nosferatu",
         "uiTheme": "vs-dark",
         "path": "./themes/nosferatu-color-theme.json"
       }
     ]
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/phlagg/nosferatu-vscode-theme.git"
+}
 }
