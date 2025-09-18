@@ -78,7 +78,8 @@
     },
     {
       "scope": [
-        "constant.numeric"
+        "constant.numeric",
+        "string.quoted.double"
       ],
       "settings": {
         "foreground": "#d1da78"
@@ -109,7 +110,8 @@
         "identifier",
         "variable.parameter",
         "storage.type.typedef.c",
-        "storage.type.c"
+        "storage.type.c",
+        "keyword.struct.go"
       ],
       "settings": {
         "foreground": "#80e2dc"
@@ -139,6 +141,15 @@
       "settings": {
         "foreground": "#a59db3"
       }
-    }
+    },
+    {
+      "scope": [
+        "variable.other.go",
+        "variable.other.assignment.go"
+      ],
+      "settings": {
+        "foreground": "#e2d1bb"
+      }
+    },
   ]
 }
