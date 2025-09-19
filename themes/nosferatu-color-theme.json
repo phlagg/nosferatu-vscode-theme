@@ -89,7 +89,8 @@
       "scope": [
         "entity.name.function",
         "support.function",
-        "keyword.control.directive.define.c"
+        "keyword.control.directive.define.c",
+        "meta.function-call.generic.python"
       ],
       "settings": {
         "foreground": "#62e66f"
@@ -106,9 +107,7 @@
     },
     {
       "scope": [
-        "variable",
         "identifier",
-        "variable.parameter",
         "storage.type.typedef.c",
         "storage.type.c",
         "keyword.struct.go"
@@ -116,7 +115,17 @@
       "settings": {
         "foreground": "#80e2dc"
       }
-    },    
+    },
+     {
+      "scope": [
+        "variable",
+        "variable.parameter",
+      ],
+      "settings": {
+        "foreground": "#80e2dc",
+        "fontStyle": "italic"
+      }
+    },        
     {
       "scope": [
         "entity.name.type",
