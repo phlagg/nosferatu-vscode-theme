@@ -137,6 +137,14 @@
     },
     {
       "scope": [
+        "constant.other.caps.python",
+      ],
+      "settings": {
+        "foreground": "#fa8c8c"
+      }
+    },
+    {
+      "scope": [
         "entity.name.function.preprocessor.c",
       ],
       "settings": {
