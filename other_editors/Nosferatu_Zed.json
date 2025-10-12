@@ -1,0 +1,110 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Nosferatu",
+  "author": "Michael Woods",
+  "themes": [
+    {
+      "name": "Nosferatu",
+      "appearance": "dark",
+      "style": {
+        "background": "#1b1926",
+        "surface.background": "#121117",
+        "editor.background": "#1b1926",
+        "editor.foreground": "#fbe8cf",
+        "editor.active_line.background": "#26242e",
+        "editor.line_number": "#666666",
+        "editor.active_line_number": "#fbe8cf",
+        "editor.wrap_guide": "#56596a",
+        "editor.active_wrap_guide": "#56596a",
+        "editor.gutter.background": "#1b1926",
+        "terminal.background": "#1b1926",
+        "terminal.foreground": "#fbe8cf",
+        "status_bar.background": "#121117",
+        "title_bar.background": "#121117",
+        "tab_bar.background": "#121117",
+        "tab.active_background": "#1b1926",
+        "tab.inactive_background": "#3e284e",
+        "toolbar.background": "#1b1926",
+        "panel.background": "#121117",
+        "scrollbar.thumb.background": "#847dac",
+        "scrollbar.thumb.hover_background": "#b48cfa",
+        "scrollbar.track.background": "#26242e",
+        "text": "#fbe8cf",
+        "text.muted": "#c5ae8f",
+        "text.placeholder": "#6D6550",
+        "text.disabled": "#666666",
+        "text.accent": "#8cfaf3",
+        "players": [
+          {
+            "cursor": "#8cfaf3",
+            "selection": "#363848"
+          }
+        ],
+        "error": "#fa8c8c",
+        "warning": "#facc8c",
+        "success": "#8cfa97",
+        "hint": "#847dac",
+        "info": "#847dac",
+        "conflict": "#fa8c8c",
+        "modified": "#f1fa8c",
+        "created": "#8cfa97",
+        "renamed": "#ed8cfa",
+        "hidden": "#586693",
+        "ignored": "#666666",
+        "syntax": {
+          "comment": {
+            "color": "#6D6550"
+          },
+          "punctuation": {
+            "color": "#c5ae8f"
+          },
+          "punctuation.bracket": {
+            "color": "#c5ae8f"
+          },
+          "punctuation.delimiter": {
+            "color": "#c5ae8f"
+          },
+          "keyword": {
+            "color": "#b48cfa"
+          },
+          "string": {
+            "color": "#8cfa97"
+          },
+          "string.escape": {
+            "color": "#facc8c"
+          },
+          "function": {
+            "color": "#ed8cfa"
+          },
+          "variable": {
+            "color": "#c5ae8f"
+          },
+          "variable.special": {
+            "color": "#f1fa8c"
+          },
+          "constant": {
+            "color": "#fa8c8c"
+          },
+          "number": {
+            "color": "#f1fa8c"
+          },
+          "type": {
+            "color": "#b48cfa"
+          },
+          "property": {
+            "color": "#c5ae8f"
+          },
+          "attribute": {
+            "color": "#facc8c"
+          },
+          "tag": {
+            "color": "#ed8cfa"
+          },
+          "operator": {
+            "color": "#fbe8cf"
+          }
+        }
+      }
+    }
+  ]
+}
