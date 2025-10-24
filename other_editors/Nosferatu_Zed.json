@@ -20,7 +20,7 @@
         "border": "#222222",
         "surface.background": "#121117",
         "editor.background": "#1b1926",
-        "editor.foreground": "#f8f8f2ff",
+        "editor.foreground": "#e2d1bb",
         "editor.active_line.background": "#26242e",
         "editor.line_number": "#666666",
         "editor.active_line_number": "#fbe8cf",
@@ -89,7 +89,7 @@
             "color": "#6D6550"
           },
           "comment.doc": {
-            "color": "#ff79c6ff",
+            "color": "#ff79c560",
             "font_style": null,
             "font_weight": null
           },
